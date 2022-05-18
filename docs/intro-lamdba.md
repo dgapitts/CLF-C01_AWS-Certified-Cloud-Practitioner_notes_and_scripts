@@ -1,4 +1,4 @@
-lambda my first function
+### Introducing lambda - my first function
 We created a newFunction under lambda
 
 
