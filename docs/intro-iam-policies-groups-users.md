@@ -5,7 +5,7 @@ Introduction to IAM
 - User Group (for our Dev team)
 - finally we add somes User i.e. Dev1, Dev2 ... to the group  
 
-## Step 01 setup Custom Policy "customLambdaDevAccess"
+### Step 01 setup Custom Policy "customLambdaDevAccess"
 
 IAM >> Policies >> Create policy.
 Note this AWS Lamba all (AWSLambda_FullAccess) but with EC2 removed:
@@ -65,11 +65,11 @@ Note this AWS Lamba all (AWSLambda_FullAccess) but with EC2 removed:
 }
 ```
 
-## Step 02 create DeveloperGroup with customLambdaDevAccess
+### Step 02 create DeveloperGroup with customLambdaDevAccess
 
 We did this assignment within IAM >> User groups >> Create group i.e. while creating DeveloperGroup
 
-## Step 03 add users (technically this could have also been done within step02)
+### Step 03 add users (technically this could have also been done within step02)
 
 IAM >> User groups >> Add users
 
