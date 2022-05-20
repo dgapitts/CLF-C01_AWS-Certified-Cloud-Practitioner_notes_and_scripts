@@ -1,4 +1,9 @@
-## Intro to IAM with a Custom Policy, User Group and User Assignment 
+## Introduction to IAM with a Custom Policy, User Group and User Assignment 
+
+Introduction to IAM  
+- start with a Custom Policy (a restricted version of AWSLambda_FullAccess)
+- User Group (for our Dev team)
+- finally we add somes User i.e. Dev1, Dev2 ... to the group  
 
 ## Step 01 setup Custom Policy "customLambdaDevAccess"
 
