@@ -1,7 +1,6 @@
-
 ## IAM setup for EC2 basic CLI admin 
 
-### Step 01  IAM > Create Policy ""EC2-basic-admin"
+### Step 01 - IAM > Create Policy ""EC2-basic-admin"
 
 Note I created this JSON via the GUI which is quite fiddly as there are  100s of options/checkboxes to choose between... but the final json output is quite readable:
 
@@ -47,13 +46,14 @@ arn:aws:iam::827589484650:policy/EC2-basic-admin
 
 
 
-### Step 02  IAM > Create User ""EC2-basic-admin"
+### Step 02 - IAM > Create User ""EC2-basic-admin"
 
+When I created the user, it get allocated `IAMUserChangePassword` by default (you can deselect this) plus I gave my custom policy `EC2-basic-admin`
 
 ![user ec2-base-admin IAM screenshot details](user-ec2-base-admin.png)
 
 
-### Step 03  CLI config (quickstart)
+### Step 03 - CLI config (quickstart)
 
 Following [aws cli-configure-quickstart doco](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
 
@@ -75,7 +75,7 @@ and in my home directory there is a `.aws` directory with `credentials` and `con
 
 ### Step 04 - test CLI access by running "ec2 describe-instances"
 
-i.e. simple `aws ec2 describe-instances`
+i.e. test via simple `aws ec2 describe-instances` cli command
 
 ```
 ~/projects/CLF-C01_AWS-Certified-Cloud-Practitioner_notes_and_scripts $ aws ec2 describe-instances
