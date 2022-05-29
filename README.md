@@ -12,3 +12,4 @@ I'm making some notes and sample code, as I prepare for the CLF-C01 exam.
 I also did some extra research 
 
 * [IAM setup for EC2 basic CLI admin](docs/extra-EC2-basic-admin.md) 
+* [Intro to aws cli to start and stop ec2 nodes](docs/intro-aws-cli-ec2.md)
