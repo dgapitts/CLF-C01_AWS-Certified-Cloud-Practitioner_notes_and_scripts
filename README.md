@@ -13,3 +13,4 @@ I also did some extra research
 
 * [IAM setup for EC2 basic CLI admin](docs/extra-EC2-basic-admin.md) 
 * [Intro to aws cli to start and stop ec2 nodes](docs/intro-aws-cli-ec2.md)
+* [Intro to aws ssh access to ec2 nodes plus installing cockroach and running through demo](docs/intro-aws-ssh-ec2.md)
