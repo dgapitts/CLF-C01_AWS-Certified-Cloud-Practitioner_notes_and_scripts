@@ -1,5 +1,9 @@
-# CLF-C01 AWS-Certified-Cloud-Practitioner notes and sample code
+## CLF-C01 AWS-Certified-Cloud-Practitioner 
 
+Notes and sample code, from "my sandbox" AWS environment (tagged sb20220516)
+
+
+## Course notes
 
 I'm making some notes and sample code, as I prepare for the CLF-C01 exam.
 
@@ -8,6 +12,8 @@ I'm making some notes and sample code, as I prepare for the CLF-C01 exam.
 * Lab03 - [Introducing - CloudFormation and DynamoDB](docs/Intro-CloudFormation-DynamoDB.md)
 * Lab04 - [Intro to IAM with a Custom Policy, User Group and User Assignment](docs/intro-iam-policies-groups-users.md)
 
+
+## Extra research 
 
 I also did some extra research 
 
