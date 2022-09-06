@@ -1,4 +1,5 @@
 ## https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-instances.html
+date
 ## Pre state
 echo "Pre state (all instances)"
 echo -e 'InstanceId\t\tState&code\tTag'
