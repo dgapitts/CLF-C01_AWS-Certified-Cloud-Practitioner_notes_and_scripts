@@ -28,4 +28,4 @@ I also did some extra research
 * [Intro to aws cli to start and stop ec2 nodes](docs/intro-aws-cli-ec2.md)
 * [Intro to aws ssh access to ec2 nodes plus installing cockroach and running through demo](docs/intro-aws-ssh-ec2.md)
 * [Adding `aws rds`  permissions to my default cli user](docs/extra-RDS-cli-admin.md)
-* [Debug surprising Aug 2022 bill - terraform oregon gotcha](docs/surprising-Aug2022-bill-terraform-gotcha.md])
+* [Debug surprising Aug 2022 bill - terraform oregon gotcha](docs/surprising-Aug2022-bill-terraform-gotcha.md)
