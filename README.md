@@ -5,6 +5,13 @@ Notes and sample code, from "my sandbox" AWS environment (tagged sb20220516)
 
 ## Course notes
 
+## CLF-C01 AWS-Certified-Cloud-Practitioner 
+
+Notes and sample code, from "my sandbox" AWS environment (tagged sb20220516)
+
+
+## Course notes
+
 I'm making some notes and sample code, as I prepare for the CLF-C01 exam.
 
 * Lab01 - [Introducing lambda - my first function](docs/intro-lamdba.md)
@@ -21,4 +28,4 @@ I also did some extra research
 * [Intro to aws cli to start and stop ec2 nodes](docs/intro-aws-cli-ec2.md)
 * [Intro to aws ssh access to ec2 nodes plus installing cockroach and running through demo](docs/intro-aws-ssh-ec2.md)
 * [Adding `aws rds`  permissions to my default cli user](docs/extra-RDS-cli-admin.md)
-* [Adding extra keys for the ec2-cli user](docs/Adding-extra-keys-ec2-cli-user.md)
+* [Debug surprising Aug 2022 bill - terraform oregon gotcha](docs/surprising-Aug2022-bill-terraform-gotcha.md])
