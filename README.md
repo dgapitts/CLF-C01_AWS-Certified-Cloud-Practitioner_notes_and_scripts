@@ -21,3 +21,4 @@ I also did some extra research
 * [Intro to aws cli to start and stop ec2 nodes](docs/intro-aws-cli-ec2.md)
 * [Intro to aws ssh access to ec2 nodes plus installing cockroach and running through demo](docs/intro-aws-ssh-ec2.md)
 * [Adding `aws rds`  permissions to my default cli user](docs/extra-RDS-cli-admin.md)
+* [Adding extra keys for the ec2-cli user](docs/Adding-extra-keys-ec2-cli-user.md)
