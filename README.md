@@ -29,3 +29,8 @@ I also did some extra research
 * [Intro to aws ssh access to ec2 nodes plus installing cockroach and running through demo](docs/intro-aws-ssh-ec2.md)
 * [Adding `aws rds`  permissions to my default cli user](docs/extra-RDS-cli-admin.md)
 * [Debug surprising Aug 2022 bill - terraform oregon gotcha](docs/surprising-Aug2022-bill-terraform-gotcha.md)
+
+
+## exam-prep-notes
+
+See [here](docs/exam-prep-notes.md) for some of the "less obvious topics" ... 
