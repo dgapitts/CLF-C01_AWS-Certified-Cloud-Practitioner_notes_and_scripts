@@ -12,7 +12,7 @@ it was a bit of a surpise to received a 12 euro bill, for Aug 2022 processing.
 ![AWS Free Tier - suprisingly high EC2 usage](AWS-Free-Tier-suprisingly-high-EC2-usage.png)
 
 ### Reviewng the last Monthly bill , which is broken down by region
-![Monthly bill broken down by region](What-is-running-in-Oregon_some-terraform-instances.png)
+![Monthly bill broken down by region](Monthly-bill-broken-down-by-region.png)
 
 ### Checking oregon 
 Finally I can the issue, I was following a terraform course and while I was proactively checking usage metrics in Virgina (us-east-1), the terraform was using Oregon (us-west-2), so I've shut these down manually: 
