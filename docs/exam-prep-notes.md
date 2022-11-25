@@ -22,3 +22,45 @@ https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-
 
 To view check categories: Sign in to the Trusted Advisor console at https://console.aws.amazon.com/trustedadvisor/home.
 
+
+
+## AWS Pillars
+
+> Operational Excellence Pillar
+
+The operational excellence pillar focuses on running and monitoring systems, and continually improving processes and procedures. Key topics include automating changes, responding to events, and defining standards to manage daily operations.
+
+
+> Security Pillar
+
+The security pillar focuses on protecting information and systems. Key topics include confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
+
+> Reliability Pillar
+
+The reliability pillar focuses on workloads performing their intended functions and how to recover quickly from failure to meet demands. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
+
+> Performance Efficiency Pillar
+
+The performance efficiency pillar focuses on structured and streamlined allocation of IT and computing resources. Key topics include selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency as business needs evolve.
+
+> Cost Optimization Pillar
+
+The cost optimization pillar focuses on avoiding unnecessary costs. Key topics include understanding spending over time and controlling fund allocation, selecting resources of the right type and quantity, and scaling to meet business needs without overspending.
+
+> Sustainability Pillar
+
+The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts. 
+
+
+###  What is AWS Shield?
+
+> AWS Shield is a managed service that provides protection against Distributed Denial of Service (DDoS) attacks for applications running on AWS. AWS Shield Standard is automatically enabled to all AWS customers at no additional cost. AWS Shield Advanced is an optional paid service. AWS Shield Advanced provides additional protections against more sophisticated and larger attacks for your applications running on Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator, and Route 53.https://aws.amazon.com/shield/faqs/
+
+
+
+### What is AWS Shield Standard?
+AWS Shield Standard provides protection for all AWS customers against common and most frequently occurring infrastructure (layer 3 and 4) attacks like SYN/UDP floods, reflection attacks, and others to support high availability of your applications on AWS. https://aws.amazon.com/shield/faqs/
+
+
+
+
