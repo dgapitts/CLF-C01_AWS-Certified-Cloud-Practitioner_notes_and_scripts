@@ -64,3 +64,16 @@ AWS Shield Standard provides protection for all AWS customers against common and
 
 
 
+
+
+##  AWS Well-Architected Tool
+
+> Q: What is the AWS Well-Architected Tool?
+
+The AWS Well-Architected Tool lets you review your workloads against current AWS best practices and obtain advice on how to architect your workloads for the cloud. This tool uses the AWS Well-Architected Framework.
+
+> Q: What are the pillars of the AWS Well-Architected Framework?
+
+The general design principles and specific AWS best practices and guidance are organized into six conceptual areas. These conceptual areas are the pillars of the AWS Well-Architected Framework. These six pillars are operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.
+
+https://aws.amazon.com/well-architected-tool/faqs/
