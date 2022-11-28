@@ -77,3 +77,80 @@ The AWS Well-Architected Tool lets you review your workloads against current AWS
 The general design principles and specific AWS best practices and guidance are organized into six conceptual areas. These conceptual areas are the pillars of the AWS Well-Architected Framework. These six pillars are operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.
 
 https://aws.amazon.com/well-architected-tool/faqs/
+
+
+
+## Service Control Policies
+
+> (SCPs)—An SCP defines the AWS service actions, such as Amazon EC2 RunInstances, that are available for use in different accounts within an organization. https://aws.amazon.com/organizations/faqs/
+
+### SCP example for DenyAllOutsideEU
+
+> This SCP denies access to any operations outside of the specified Regions.
+https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples_general.html
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "DenyAllOutsideEU",
+            "Effect": "Deny",
+            "NotAction": [
+                "a4b:*",
+                "acm:*",
+                "aws-marketplace-management:*",
+                "aws-marketplace:*",
+                "aws-portal:*",
+                "budgets:*",
+                "ce:*",
+                "chime:*",
+                "cloudfront:*",
+                "config:*",
+                "cur:*",
+                "directconnect:*",
+                "ec2:DescribeRegions",
+                "ec2:DescribeTransitGateways",
+                "ec2:DescribeVpnGateways",
+                "fms:*",
+                "globalaccelerator:*",
+                "health:*",
+                "iam:*",
+                "importexport:*",
+                "kms:*",
+                "mobileanalytics:*",
+                "networkmanager:*",
+                "organizations:*",
+                "pricing:*",
+                "route53:*",
+                "route53domains:*",
+                "s3:GetAccountPublic*",
+                "s3:ListAllMyBuckets",
+                "s3:PutAccountPublic*",
+                "shield:*",
+                "sts:*",
+                "support:*",
+                "trustedadvisor:*",
+                "waf-regional:*",
+                "waf:*",
+                "wafv2:*",
+                "wellarchitected:*"
+            ],
+            "Resource": "*",
+            "Condition": {
+                "StringNotEquals": {
+                    "aws:RequestedRegion": [
+                        "eu-central-1",
+                        "eu-west-1"
+                    ]
+                },
+                "ArnNotLike": {
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/Role1AllowedToBypassThisSCP",
+                        "arn:aws:iam::*:role/Role2AllowedToBypassThisSCP"
+                    ]
+                }
+            }
+        }
+    ]
+}
+```
