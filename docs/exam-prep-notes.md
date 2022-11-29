@@ -52,7 +52,7 @@ The cost optimization pillar focuses on avoiding unnecessary costs. Key topics i
 The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts. 
 
 
-###  What is AWS Shield?
+##  What is AWS Shield?
 
 > AWS Shield is a managed service that provides protection against Distributed Denial of Service (DDoS) attacks for applications running on AWS. AWS Shield Standard is automatically enabled to all AWS customers at no additional cost. AWS Shield Advanced is an optional paid service. AWS Shield Advanced provides additional protections against more sophisticated and larger attacks for your applications running on Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator, and Route 53.https://aws.amazon.com/shield/faqs/
 
@@ -154,3 +154,14 @@ https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_
     ]
 }
 ```
+
+## CloudTrail - auditing api calls and aws console activity (by region)
+
+The concept of CloudTrail is fairly intuitive, I've used it a few times but it wasn't obvious to me this was region specific tracking 
+
+> Q: What is AWS CloudTrail?
+CloudTrail enables auditing, security monitoring, and operational troubleshooting by *tracking user activity and API usage*. CloudTrail logs, continuously monitors, and retains account activity related to actions across your AWS infrastructure, giving you control over storage, analysis, and remediation actions.
+
+> Q: What are the benefits of CloudTrail?
+CloudTrail helps you prove compliance, improve security posture, and *consolidate activity records across Regions and accounts*. 
+https://aws.amazon.com/cloudtrail/faqs/
