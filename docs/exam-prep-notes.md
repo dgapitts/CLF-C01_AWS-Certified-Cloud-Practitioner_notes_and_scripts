@@ -165,3 +165,34 @@ CloudTrail enables auditing, security monitoring, and operational troubleshootin
 > Q: What are the benefits of CloudTrail?
 CloudTrail helps you prove compliance, improve security posture, and *consolidate activity records across Regions and accounts*. 
 https://aws.amazon.com/cloudtrail/faqs/
+
+
+## AWS Direct Connect vs AWS Site-to-Site VPN
+
+Notice the high speed connections "1 Gbps, 10 Gbps, or 100 Gbps Ethernet port dedicated to a single customer" and improved reliability for Direct Connect 
+
+### AWS Direct Connect
+https://aws.amazon.com/directconnect/faqs/
+
+Q: What is AWS Direct Connect?
+
+AWS Direct Connect is a networking service that provides an alternative to using the internet to connect to AWS. Using AWS Direct Connect, data that would have previously been transported over the internet is delivered through a private network connection between your facilities and AWS. In many circumstances, private network connections can reduce costs, increase bandwidth, and provide a more consistent network experience than internet-based connections. All AWS services, including Amazon Elastic Compute Cloud (EC2), Amazon Virtual Private Cloud (VPC), Amazon Simple Storage Service (S3), and Amazon DynamoDB can be used with AWS Direct Connect.
+
+Q: Where is AWS Direct Connect available?
+A complete list of AWS Direct Connect locations is available on the AWS Direct Connect locations page. When using AWS Direct Connect, you can connect to VPCs deployed in any AWS Region and Availability Zone. You can also connect to AWS Local Zones.
+
+Q: What is the difference between dedicated and hosted connections?
+
+A dedicated connection is made through a 1 Gbps, 10 Gbps, or 100 Gbps Ethernet port dedicated to a single customer. Hosted connections are sourced from a AWS Direct Connect Partner that has a network link between themselves and AWS. 
+
+
+### AWS Site-to-Site VPN
+
+https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html
+
+A dedicated connection is made through a 1 Gbps, 10 Gbps, or 100 Gbps Ethernet port dedicated to a single customer. Hosted connections are sourced from a AWS Direct Connect Partner that has a network link between themselves and AWS. 
+
+
+By default, instances that you launch into an Amazon VPC can't communicate with your own (remote) network. You can enable access to your remote network from your VPC by creating an AWS Site-to-Site VPN (Site-to-Site VPN) connection, and configuring routing to pass traffic through the connection.
+
+
