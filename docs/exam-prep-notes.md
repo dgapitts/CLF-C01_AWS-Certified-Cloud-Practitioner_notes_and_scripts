@@ -222,3 +222,27 @@ Amazon VPC with public and private subnets
 Amazon VPC with public and private subnets and AWS Site-to-Site VPN access
 Amazon VPC with a private subnet only and AWS Site-to-Site VPN access
 ```
+
+## AWS Support questions and levels
+
+https://aws.amazon.com/premiumsupport/faqs/
+
+> Q: What types of issues are supported?
+```
+Your AWS Support covers development and production issues for AWS products and services, along with other key stack components.
+"How to" questions about AWS service and features
+Best practices to help you successfully integrate, deploy, and manage applications in the cloud
+Troubleshooting API and AWS SDK issues
+Troubleshooting operational or systemic problems with AWS resources
+Issues with our Management Console or other AWS tools
+Problems detected by Health Checks
+A number of third-party applications such as OS, web servers, email, databases, and storage configuration
+
+AWS Support does not include:
+Code development
+Debugging custom software
+Performing system administration tasks
+```
+
+![AWS_Support_questions_and_levels.png](AWS_Support_questions_and_levels.png)
+
