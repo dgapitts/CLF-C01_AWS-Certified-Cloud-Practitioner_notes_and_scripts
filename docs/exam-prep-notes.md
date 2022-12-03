@@ -253,31 +253,53 @@ https://aws.amazon.com/controltower/faqs/
 
 > Q: What is AWS Control Tower?
 ```
-AWS Control Tower offers the easiest way to set up and govern a secure, multi-account AWS environment. It establishes a landing zone that is based on best-practices blueprints, and it enables governance using guardrails you can choose from a pre-packaged list. The landing zone is a well-architected, multi-account baseline that follows AWS best practices. Guardrails implement governance rules for security, compliance, and operations.
+AWS Control Tower offers the easiest way to set up and govern a secure, multi-account AWS environment. 
+It establishes a landing zone that is based on best-practices blueprints, 
+and it enables governance using guardrails you can choose from a pre-packaged list. 
+The landing zone is a well-architected, multi-account baseline that follows AWS best practices. 
+Guardrails implement governance rules for security, compliance, and operations.
 ```
 
 > Q: Who should use AWS Control Tower?
 ```
-If you want to create or manage your multi-account AWS environment with best practices, use AWS Control Tower. It offers prescriptive guidance to govern your AWS environment at scale. It gives you control over your environment without sacrificing the speed and agility AWS provides for builders. 
+If you want to create or manage your multi-account AWS environment with best practices, use AWS Control Tower.
+It offers prescriptive guidance to govern your AWS environment at scale. 
+It gives you control over your environment without sacrificing the speed and agility AWS provides for builders. 
 ```
 
 
 > Q: How is AWS Control Tower different from the AWS Landing Zone solution?
 ```
-AWS Control Tower is an AWS native service providing a pre-defined set of blueprints and guardrails to help you implement a landing zone for AWS accounts. AWS Landing Zone is an AWS solution offered through AWS Solution Architect, Professional Services, or AWS Partner Network (APN) Partners that provides a fully configurable, customer-managed landing zone implementation. 
+AWS Control Tower is an AWS native service providing a pre-defined set of blueprints and 
+guardrails to help you implement a landing zone for AWS accounts. AWS Landing Zone is an 
+AWS solution offered through AWS Solution Architect, Professional Services, or AWS Partner 
+Network (APN) Partners that provides a fully configurable, customer-managed landing zone 
+implementation. 
 ```
 
 > Q: How is AWS Control Tower different from AWS Security Hub?
 ```
-AWS Control Tower and AWS Security Hub are complementary services. AWS Security Hub is used by security teams, compliance professionals, and DevOps engineers to continuously monitor and improve the security posture of their AWS accounts and resources. Besides aggregating security findings and enabling automated remediation, AWS Security Hub also performs security best practice checks against the AWS Foundational Security Best Practices standard and other industry and regulatory standards. 
+AWS Control Tower and AWS Security Hub are complementary services. AWS Security Hub is 
+used by security teams, compliance professionals, and DevOps engineers to continuously 
+monitor and improve the security posture of their AWS accounts and resources. Besides 
+aggregating security findings and enabling automated remediation, AWS Security Hub also 
+performs security best practice checks against the AWS Foundational Security Best Practices 
+standard and other industry and regulatory standards. 
 ```
 
 > Q: How does AWS Control Tower interoperate with AWS Service Catalog?
 ```
-AWS Control Tower automatically sets up AWS Service Catalog as the underlying AWS service to enable provisioning of new accounts through an account factory. While AWS Control Tower provides central governance at an account level, AWS Service Catalog can further provide granular governance at a resource level. AWS Service Catalog also lets you provision infrastructure and application stacks that have been pre-approved by IT for use inside your accounts.
+AWS Control Tower automatically sets up AWS Service Catalog as the underlying AWS service 
+to enable provisioning of new accounts through an account factory. While AWS Control Tower 
+provides central governance at an account level, AWS Service Catalog can further provide 
+granular governance at a resource level. AWS Service Catalog also lets you provision 
+infrastructure and application stacks that have been pre-approved by IT for use inside your accounts.
 ```
 
 > Q: How does AWS Control Tower interoperate with AWS Systems Manager?
 ```
-You can use AWS Control Tower to set up and govern your AWS environment, and then use AWS Systems Manager to handle its ongoing day to day operations. AWS Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and automate operational tasks across your AWS resources. 
+You can use AWS Control Tower to set up and govern your AWS environment, and then use AWS 
+Systems Manager to handle its ongoing day to day operations. AWS Systems Manager provides 
+a unified user interface so you can view operational data from multiple AWS services and 
+automate operational tasks across your AWS resources. 
 ```
