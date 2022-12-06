@@ -303,3 +303,32 @@ Systems Manager to handle its ongoing day to day operations. AWS Systems Manager
 a unified user interface so you can view operational data from multiple AWS services and 
 automate operational tasks across your AWS resources. 
 ```
+
+
+
+## Amazon Support: Web Services Concierge, TAM and API
+
+> https://www.amazonaws.cn/en/support/features/
+
+> Your Amazon Web Services Concierge is a senior customer service agent who is assigned to your account when you subscribe to an Enterprise or qualified Reseller Support plan. This Concierge agent is your primary point of contact for billing or account inquiries; when you don’t know whom to call, they will find the right people to help. In most cases, the Amazon Web Services Concierge is available during regular business hours in your headquarters’ geography. The best way to contact the Amazon Web Services Concierge is through the  Amazon Web Services Support Center.
+
+> Here are some of the questions that you might ask your Amazon Web Services Concierge:
+```
+How is my monthly bill calculated?
+How can I optimize costs?
+How can I restructure my consolidated bill?
+How can I locate the service limits for my accounts?
+How can I identify underutilized resources?
+How can I manage multiple linked accounts on a consolidated bill?
+How can I make a bulk Reserved Instances purchase?
+My company has merged with another company. How do I transition the Amazon Web Services accounts to the new company?
+```
+
+> Amazon Web Services Support API
+
+The Amazon Web Services Support API allows you to programmatically interact with your Support cases (create, edit, close) and access/refresh Trusted Advisor best practices recommendations. For more information, see the Amazon Web Services  Support Documentation.
+
+
+> Technical Account Manager (TAM)
+
+For Enterprise-level customers, a TAM provides technical expertise for the full range of Amazon Web Services services and obtains a detailed understanding of your use case and technology architecture. TAMs work with Amazon Web Services Solution Architects to help you launch new projects and give best practices recommendations throughout the implementation life cycle. Your TAM is the primary point of contact for ongoing support needs, and you have a direct telephone line to your TAM.
