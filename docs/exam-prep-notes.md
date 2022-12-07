@@ -332,3 +332,13 @@ The Amazon Web Services Support API allows you to programmatically interact with
 > Technical Account Manager (TAM)
 
 For Enterprise-level customers, a TAM provides technical expertise for the full range of Amazon Web Services services and obtains a detailed understanding of your use case and technology architecture. TAMs work with Amazon Web Services Solution Architects to help you launch new projects and give best practices recommendations throughout the implementation life cycle. Your TAM is the primary point of contact for ongoing support needs, and you have a direct telephone line to your TAM.
+
+
+
+## AWS Shared Responsibility Model 
+
+Mostly common sense (context is key, if you run Postgres on EC2 then you control much more than RDS-Postgres) but good to familarize oneself with this diagram:
+
+https://aws.amazon.com/compliance/shared-responsibility-model/
+
+![Shared_Responsibility_Model.jpg](Shared_Responsibility_Model.jpg)
