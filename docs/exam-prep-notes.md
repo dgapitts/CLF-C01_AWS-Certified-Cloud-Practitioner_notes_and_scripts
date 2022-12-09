@@ -365,3 +365,17 @@ https://aws.amazon.com/types-of-cloud-computing/
 * Software as a Service (SaaS)
 
 > Software as a Service provides you with a completed product that is run and managed by the service provider. In most cases, people referring to Software as a Service are referring to end-user applications. With a SaaS offering you do not have to think about how the service is maintained or how the underlying infrastructure is managed; you only need to think about how you will use that particular piece of software. A common example of a SaaS application is web-based email where you can send and receive email without having to manage feature additions to the email product or maintaining the servers and operating systems that the email program is running on.
+
+## AWS ARTIFACT?
+
+Another great graphic, gives a really good sense of what this product does and basic functionality:
+
+![AWS-ARTIFACT.png](AWS-ARTIFACT.png)
+https://aws.amazon.com/artifact/faq/
+
+* 1. WHAT IS AWS ARTIFACT?
+>  AWS Artifact, available in the console, is a self-service audit artifact retrieval portal that provides our customers with on-demand access to AWS’ compliance documentation and AWS agreements. You can use AWS Artifact Reports to download AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI), and System and Organization Control (SOC) reports.
+You can use AWS Artifact Agreements to review, accept, and track the status of AWS agreements such as the Business Associate Addendum (BAA).
+
+* 2. WHO HAS ACCESS TO AWS ARTIFACT?
+> All AWS Accounts have access to AWS Artifact. Root users and IAM users with admin permissions can download all audit artifacts available to their account by agreeing to the associated terms and conditions.
