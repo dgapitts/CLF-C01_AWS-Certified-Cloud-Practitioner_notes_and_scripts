@@ -379,3 +379,12 @@ You can use AWS Artifact Agreements to review, accept, and track the status of A
 
 * 2. WHO HAS ACCESS TO AWS ARTIFACT?
 > All AWS Accounts have access to AWS Artifact. Root users and IAM users with admin permissions can download all audit artifacts available to their account by agreeing to the associated terms and conditions.
+
+
+## Amazon SageMaker (Neo)
+
+![AmazonSageMaker-Neo.png](AmazonSageMaker-Neo.png)
+
+https://aws.amazon.com/sagemaker/neo/
+
+> Amazon SageMaker Neo enables developers to optimize machine learning (ML) models for inference on SageMaker in the cloud and supported devices at the edge. ML inference is the process of using a trained machine learning model to make predictions. After training a model for high accuracy, developers often spend a lot of time and effort tuning the model for high performance. For inference in the cloud, developers often turn to large instances with lots of memory and powerful processing capabilities at higher costs to achieve better throughput. For inference on edge devices with limited compute and memory, developers often spend months hand-tuning the model to achieve acceptable performance within the device hardware constraints.
