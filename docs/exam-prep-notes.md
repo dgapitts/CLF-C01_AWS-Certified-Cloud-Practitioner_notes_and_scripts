@@ -80,9 +80,19 @@ The AWS Well-Architected Tool lets you review your workloads against current AWS
 
 > Q: What are the pillars of the AWS Well-Architected Framework?
 
-The general design principles and specific AWS best practices and guidance are organized into six conceptual areas. These conceptual areas are the pillars of the AWS Well-Architected Framework. These six pillars are operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.
+The general design principles and specific AWS best practices and guidance are organized into six conceptual areas. These conceptual areas are the pillars of the AWS Well-Architected Framework. These six pillars are 
+1) operational excellence
+2) security
+3) reliability
+4) performance efficiency
+5) cost optimization
+6) sustainability.
 
 https://aws.amazon.com/well-architected-tool/faqs/
+
+NB According tp ACG we need to know these Well-Architected Framework 6 pillar names verbatim ('in exactly the same words as were used originally.'):
+
+>  "Performance Optimization is wrong: Performance Efficiency (not optimization) is a pillar in the Well-Architected Framework".
 
 
 
