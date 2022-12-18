@@ -423,3 +423,21 @@ https://aws.amazon.com/global-accelerator/faqs/
 (2) Easily move endpoints between Availability Zones or AWS Regions without needing to update your DNS configuration or change client-facing applications.
 (3) Dial traffic up or down for a specific AWS Region by configuring a traffic dial percentage for your endpoint groups. This is especially useful for testing performance and releasing updates.
 Control the proportion of traffic directed to each endpoint within an endpoint group by assigning weights across the endpoints.
+
+
+
+## GuardDuty WAF
+
+![GuardDuty-WAF-01.png](GuardDuty-WAF-01.png)
+
+
+> Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
+
+
+Here’s how the solution works, as shown in the diagram:
+* A GuardDuty finding is raised with suspected malicious activity.
+* A CloudWatch Event is configured to filter for GuardDuty Finding type.
+* A Lambda function is invoked by the CloudWatch Event and parses the GuardDuty finding.
+* State data for blocked hosts is stored in Amazon DynamoDB table. The Lambda function checks the state table for existing host entry.
+* The Lambda function creates a Rule inside AWS WAF and in a VPC NACL.
+* A notification email is sent via Amazon Simple Notification Service (SNS).
