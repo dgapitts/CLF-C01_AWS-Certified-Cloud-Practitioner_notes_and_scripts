@@ -410,6 +410,8 @@ https://aws.amazon.com/sagemaker/neo/
 
 https://aws.amazon.com/global-accelerator/faqs/
 
+![AWS-Global-Accelerator.png](AWS-Global-Accelerator.png)
+
 * Q: What is AWS Global Accelerator?
 
 > A: AWS Global Accelerator is a networking service that helps you improve the availability and performance of the applications that you offer to your global users. AWS Global Accelerator is easy to set up, configure, and manage. It provides static IP addresses that provide a fixed entry point to your applications and eliminate the complexity of managing specific IP addresses for different AWS Regions and Availability Zones. AWS Global Accelerator always routes user traffic to the optimal endpoint based on performance, reacting instantly to changes in application health, your user’s location, and policies that you configure. You can test the performance benefits from your location with a speed comparison tool. Like other AWS services, AWS Global Accelerator is a self-service, pay-per-use offering, requiring no long term commitments or minimum fees.
