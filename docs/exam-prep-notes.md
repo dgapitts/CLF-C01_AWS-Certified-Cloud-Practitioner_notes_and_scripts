@@ -441,3 +441,16 @@ Here’s how the solution works, as shown in the diagram:
 * State data for blocked hosts is stored in Amazon DynamoDB table. The Lambda function checks the state table for existing host entry.
 * The Lambda function creates a Rule inside AWS WAF and in a VPC NACL.
 * A notification email is sent via Amazon Simple Notification Service (SNS).
+
+
+
+## Creating and deleting access keys for the AWS account root user
+
+https://docs.aws.amazon.com/accounts/latest/reference/root-user-access-key.html
+
+> Although we don't recommend it, you can create access keys for your root user so that you can run commands in the AWS Command Line Interface (AWS CLI) or use API operations from one of the AWS SDKs.
+
+...
+
+> When you no longer need the access key we recommend that you delete it, or at least mark it inactive by choosing Make Inactive so that no one can misuse it.
+
