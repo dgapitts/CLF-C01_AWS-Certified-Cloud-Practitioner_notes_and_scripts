@@ -454,3 +454,31 @@ https://docs.aws.amazon.com/accounts/latest/reference/root-user-access-key.html
 
 > When you no longer need the access key we recommend that you delete it, or at least mark it inactive by choosing Make Inactive so that no one can misuse it.
 
+
+
+##  Getting started with your AWS Health Dashboard – Your account health
+
+https://docs.aws.amazon.com/health/latest/ug/getting-started-health-dashboard.html
+
+You can use your AWS Health Dashboard to learn about AWS Health events. These events can affect your AWS services or AWS account. After you sign in to your account, the AWS Health Dashboard shows information in the following ways:
+
+Your account events – This page shows events that are specific to your account. You can view open, recent, and scheduled changes. You can also view notifications and an event log that shows all events from the past 90 days.
+
+Your organization events – This page shows events that are specific to your organization in AWS Organizations. You can view open, recent, and scheduled changes for your organization. You can also view notifications, as well as an event log that shows all organization events from the past 90 days.
+
+Note
+If you don't have an AWS account, you can use the AWS Health Dashboard – Service health to learn about general service availability.
+
+If you have an account, we recommend that you sign in to your AWS Health Dashboard to get deeper insights into events and upcoming changes that might affect your services and resources.
+
+
+* Open and recent issues
+* Scheduled changes
+* Other notifications
+* Event log
+* Event details
+
+
+
+
+
