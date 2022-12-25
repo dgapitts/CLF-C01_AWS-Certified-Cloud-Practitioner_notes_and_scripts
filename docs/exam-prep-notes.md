@@ -498,3 +498,27 @@ If you have an account, we recommend that you sign in to your AWS Health Dashboa
 > Amazon Polly is a service that turns text into lifelike speech. Amazon Polly enables existing applications to speak as a first class feature and creates the opportunity for entirely new categories of speech-enabled products, from mobile apps and cars, to devices and appliances
 > https://aws.amazon.com/polly/faqs/
 
+
+
+### IAM Terminology
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/intro-structure.html
+
+* IAM Resources
+> The user, group, role, policy, and identity provider objects that are stored in IAM. As with other AWS services, you can add, edit, and remove resources from IAM.
+
+* IAM Identities
+> The IAM resource objects that are used to identify and group. You can attach a policy to an IAM identity. These include users, groups, and roles.
+
+* IAM Entities
+> The IAM resource objects that AWS uses for authentication. These include IAM users and roles.
+
+* Principals
+> A person or application that uses the AWS account root user, an IAM user, or an IAM role to sign in and make requests to AWS. Principals include federated users and assumed roles.
+
+* Human users
+> Also known as human identities; the people, administrators, developers, operators, and consumers of your applications.
+
+* Workload
+> A collection of resources and code that delivers business value, such as an application or backend process. Can include applications, operational tools, and components.
+
