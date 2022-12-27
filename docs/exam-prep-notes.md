@@ -243,9 +243,8 @@ Amazon VPC with a private subnet only and AWS Site-to-Site VPN access
 
 https://aws.amazon.com/premiumsupport/faqs/
 
-> Q: What types of issues are supported?
-```
-Your AWS Support covers development and production issues for AWS products and services, along with other key stack components.
+* Q: What types of issues are supported?
+>  Your AWS Support covers development and production issues for AWS products and services, along with other key stack components.
 "How to" questions about AWS service and features
 Best practices to help you successfully integrate, deploy, and manage applications in the cloud
 Troubleshooting API and AWS SDK issues
@@ -254,14 +253,26 @@ Issues with our Management Console or other AWS tools
 Problems detected by Health Checks
 A number of third-party applications such as OS, web servers, email, databases, and storage configuration
 
-AWS Support does not include:
-Code development
+* AWS Support does not include:
+> Code development
 Debugging custom software
 Performing system administration tasks
-```
+
 
 ![AWS_Support_questions_and_levels.png](AWS_Support_questions_and_levels.png)
 
+* AWS Support Access methods - email, chat and response times
+
+Based on the ACG practise exams, this seems important to know:
+
+* *Developer*
+>  (https://aws.amazon.com/premiumsupport/plans/developers/) Business hours email access to Cloud Support engineers. You can have one primary contact that can open an unlimited amount of cases. Response times for general guidance is less than 24 business hours* and system impaired is less than 12 business hours*. 
+
+* *Business* 
+> (https://aws.amazon.com/premiumsupport/plans/business/) 24x7 access to Cloud Support Engineers via phone, chat, and web. You can have an unlimited number of contacts that can open an unlimited amount of cases. Response times for general guidance is less than 24 hours, system impaired is less than 12 hours, production system impaired is less than 4 hours, and production system down is less than an hour.
+
+* *Enterprise* 
+> (https://aws.amazon.com/premiumsupport/plans/enterprise/) 24x7 access to Cloud Support Engineers via phone, chat, and web. You can have an unlimited number of contacts that can open an unlimited amount of cases. Response times for general guidance is less than 24 hours, system impaired is less than 12 hours, production system impaired is less than 4 hours, production system down is less than an hour, and business critical system down is less than 15 minutes.
 
 ## AWS Control Tower
 
