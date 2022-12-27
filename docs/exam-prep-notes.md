@@ -274,6 +274,16 @@ Based on the ACG practise exams, this seems important to know:
 * *Enterprise* 
 > (https://aws.amazon.com/premiumsupport/plans/enterprise/) 24x7 access to Cloud Support Engineers via phone, chat, and web. You can have an unlimited number of contacts that can open an unlimited amount of cases. Response times for general guidance is less than 24 hours, system impaired is less than 12 hours, production system impaired is less than 4 hours, production system down is less than an hour, and business critical system down is less than 15 minutes.
 
+
+##  AWS managed landing zone
+
+https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration/aws-landing-zone.html
+
+* A landing zone is a well-architected, multi-account AWS environment that is a starting point from which you can deploy workloads and applications. It provides a baseline to get started with multi-account architecture, identity and access management, governance, data security, network design, and logging.
+* AWS has two options for creating your landing zone: a service-based landing zone using AWS Control Tower and a customized landing zone that you build. Each option requires a different level of AWS knowledge.
+
+
+
 ## AWS Control Tower
 
 https://aws.amazon.com/controltower/faqs/
