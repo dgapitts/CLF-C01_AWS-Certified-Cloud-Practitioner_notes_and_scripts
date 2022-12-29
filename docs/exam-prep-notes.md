@@ -543,3 +543,18 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/intro-structure.html
 * Workload
 > A collection of resources and code that delivers business value, such as an application or backend process. Can include applications, operational tools, and components.
 
+
+
+## VPC SecurityGroups and NACLs
+
+
+* Control traffic to subnets using Network ACLs
+> A network access control list (ACL) allows or denies specific inbound or outbound traffic at the subnet level. You can use the default network ACL for your VPC, or you can create a custom network ACL for your VPC with rules that are similar to the rules for your security groups in order to add an additional layer of security to your VPC. https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html
+* Network ACLs are stateless
+> Network ACLs are stateless, which means that responses to allowed inbound traffic are subject to the rules for outbound traffic (and vice versa).
+
+* Control traffic to resources using security groups
+> A security group controls the traffic that is allowed to reach and leave the resources that it is associated with. For example, after you associate a security group with an EC2 instance, it controls the inbound and outbound traffic for the instance. https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html
+
+* Security groups are stateful
+> Security groups are stateful. For example, if you send a request from an instance, the response traffic for that request is allowed to reach the instance regardless of the inbound security group rules. Responses to allowed inbound traffic are allowed to leave the instance, regardless of the outbound rules.
