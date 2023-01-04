@@ -35,7 +35,9 @@ I also did some extra research
 
 See [here](docs/exam-prep-notes.md) for some of the "less obvious topics" ... 
 
-NB I've completed this certification (882/1000 i.e. a comfortable pass), there is one question which really gets to me as both the following answers seem right
+## completed this certification (882/1000)
+
+I've completed this certification with 882/1000 (i.e. a comfortable pass), but there is one question which really gets to me as both the following answers seem right
 
 > QUESTION Which of the following best describes a system that will remain operational even in the event of a component failure?
 * Fault tolerant
@@ -43,4 +45,4 @@ NB I've completed this certification (882/1000 i.e. a comfortable pass), there i
 * ..
 * ..
 
-A variation of this came up on the exam as well
+A variation of this came up on the exam as well!?
